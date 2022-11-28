@@ -1,0 +1,10 @@
+[
+    {"id": "1", "name": "rick", "gender": "male", "status": "alive", "location": {
+        "origin": "Earth",
+        "last": "Citadel of Ricks"
+    } },
+    {"id": "2", "name": "Morty", "gender": "male", "status": "alive", "location": {
+        "origin": "Earth",
+        "last": "Citadel of Ricks"
+    } }
+]

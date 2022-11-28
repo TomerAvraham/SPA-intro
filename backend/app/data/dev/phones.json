@@ -1,0 +1,4 @@
+[
+    { "id": "1", "brand": "apple", "model": "XR", "color": "black", "SSD": "256" },
+    { "id": "2", "brand": "Samsung", "model": "S22", "color": "silver", "SSD": "128" }
+]
