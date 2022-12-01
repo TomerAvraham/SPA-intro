@@ -1,4 +1,4 @@
 [
-    { "id": "1", "brand": "apple", "model": "XR", "color": "black", "SSD": "256" },
-    { "id": "2", "brand": "Samsung", "model": "S22", "color": "silver", "SSD": "128" }
+    { "id": "1", "brand": "apple", "model": "XR", "color": "black", "SSD": "256", "image": "/images/iphone.png" },
+    { "id": "2", "brand": "Samsung", "model": "S22", "color": "silver", "SSD": "128", "image": "/images/samsung.jpg" }
 ]

@@ -16,10 +16,11 @@ export const NavbarLinksWrapper = styled.ul`
   display: flex;
   list-style: none;
   margin-left: auto;
-  width: 250px;
+  width: 300px;
   height: 100%;
   align-items: center;
   justify-content: space-evenly;
+  margin-right: 15px;
 `;
 
 export const NavbarLinkItem = styled.li`

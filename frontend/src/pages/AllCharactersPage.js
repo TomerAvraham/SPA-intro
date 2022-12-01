@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { getAllCharacters } from "../services/apiService";
+import { getAllCharacters } from "../services/characters-service";
 import CharacterCard from "../components/cards/CharacterCard/CharacterCard";
 
 const AllCharactersPage = () => {

@@ -6,6 +6,8 @@ import AboutPage from "./pages/AboutPage";
 import Page404 from "./pages/Page404";
 import "./assets/style/global.css";
 import Layout from "./layout/Layout";
+import AllPhonesPage from "./pages/AllPhonesPage";
+import SinglePhonePage from "./pages/SinglePhonePage";
 
 const App = () => {
   return (
@@ -15,8 +17,10 @@ const App = () => {
           <Route index element={<IndexPage />} />
           <Route path="/about" element={<AboutPage />} />
           <Route path="/all" element={<AllCharactersPage />} />
-          <Route path="*" element={<Page404 />} />
+          <Route path="/phones" element={<AllPhonesPage />} />
+          <Route path="/phones/:phoneId" element={<SinglePhonePage />} />
         </Route>
+        <Route path="*" element={<Page404 />} />
       </Routes>
     </BrowserRouter>
   );

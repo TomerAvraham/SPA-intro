@@ -13,7 +13,7 @@ const IndexPage = () => {
   return (
     <PageContainer isDarkMode={isDarkMode}>
       {/* <Button onClick={handleToggleDarkMode}>Toggle dark mode</Button> */}
-      <H1>Welcome to my Rick and Morty API</H1>
+      <H1>SPA into - AMAZING!</H1>
       <LinkButton to="/all">All Characters</LinkButton>
     </PageContainer>
   );
